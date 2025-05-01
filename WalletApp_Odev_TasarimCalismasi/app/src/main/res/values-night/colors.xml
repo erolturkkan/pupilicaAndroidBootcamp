@@ -3,17 +3,17 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+
     <!-- Renkler -->
-    <color name="light_screen_bg">#FFFFFFFF</color>
-    <color name="screen_bg">#FFFFFFFF</color>
-    <color name="card_gradient_dark">#FF9E96C8</color>
-    <color name="card_gradient_light">#FFCFCEF6</color>
-    <color name="dot_pattern">#1A000000</color>
-    <color name="primary_text">#FF000000</color>
-    <color name="secondary_text">#FF71717D</color>
-    <color name="chart_bg">#FFF0F0F5</color>
+    <color name="screen_bg">#FF1F1D2C</color>
+    <color name="card_gradient_dark">#FF645C9A</color>
+    <color name="card_gradient_light">#FFA79CFD</color>
+    <color name="dot_pattern">#1AFFFFFF</color>
+    <color name="primary_text">#FFFFFFFF</color>
+    <color name="secondary_text">#FFB0B0C0</color>
+    <color name="chart_bg">#FF2E2C3A</color>
     <color name="chart_fill">#FF5B45E6</color>
-    <color name="service_card_bg">#FFFFFFFF</color>
+    <color name="service_card_bg">#FF272537</color>
 
     <color name="entertainment_icon">#FFFF6188</color>
     <color name="amount">#FFFDC750</color>
@@ -23,7 +23,5 @@
     <color name="topup_icon">#FF49EF8B</color>
 
     <color name="bonus_icon">#FFB780F1</color>
-
-
 
 </resources>

@@ -6,10 +6,13 @@
     <string name="sonislem">Son İşlemler</string>
     <string name="kullanilabilirlimit">Kullanılabilir Kredi</string>
     <string name="toplamlimit">Toplam Kredi</string>
-    <string name="gunceldonemborcu">Güncel Döneme Borç</string>
+    <string name="gunceldonemborcu">Güncel Dönem Borcu</string>
     <string name="kalanhesapborcu">Kalan Hesap Borcu</string>
     <string name="tumkarthareketleri">Tüm Kart İşlemleri</string>
     <string name="kartislemleri">Kart İşlemleri</string>
-    
+    <string name="kullanilabilirLimitMiktar">14.387,50 TL</string>
+    <string name="toplamLimitMiktar">50.000,00 TL</string>
+    <string name="guncelDonemBorcuMiktar">35.612,50 TL</string>
+    <string name="kalanHesapBorcuMiktar">0 TL</string>
 
 </resources>
