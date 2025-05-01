@@ -1,3 +1,7 @@
+![Dark Mode (English)](assets/dark_english.png)
+![Dark Mode (Türkçe)](assets/dark_turkish.png)
+![Light Mode (English)](assets/light_english.png)
+
 # Proje: Ana Sayfa Tasarım Çalışması
 
 Bu proje, Android Studio kullanarak temel bir ana sayfa arayüzünün tasarım ve yapılandırma çalışmalarını içerir. Aşağıdaki konuları öğrendim ve uyguladım:
