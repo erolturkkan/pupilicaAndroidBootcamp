@@ -1,6 +1,7 @@
 ![Dark Mode (English)](assets/dark_english.png)
 ![Dark Mode (Türkçe)](assets/dark_turkish.png)
 ![Light Mode (English)](assets/light_english.png)
+![Light Mode (Türkçe)](assets/light_turkish.png)
 
 # Proje: Ana Sayfa Tasarım Çalışması
 
