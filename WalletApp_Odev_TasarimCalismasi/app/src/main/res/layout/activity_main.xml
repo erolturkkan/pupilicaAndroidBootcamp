@@ -51,7 +51,7 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Good Morning"
+                android:text="@string/gunaydin"
                 android:textColor="@color/light_secondary_text" />
 
             <TextView
@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/archivo_medium"
-                android:text="Welcome Erol"
+                android:text="@string/hosgeldin"
                 android:textColor="@color/light_primary_text"
                 android:textSize="20sp" />
         </LinearLayout>
@@ -72,60 +72,67 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/chip3"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
-        app:layout_constraintVertical_bias="0.5"
         app:srcCompat="@drawable/card1" />
 
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip3"
-        android:layout_width="174dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="16dp"
-        android:text="Limit / Borç"
-        android:textAlignment="center"
-        android:textColor="@color/primary_text"
-        app:chipBackgroundColor="@color/bonus_icon"
-        app:chipStrokeColor="@color/bonus_icon"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toStartOf="@+id/chip4"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip4"
-        android:layout_width="174dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="16dp"
-        android:text="Son İşlemler"
-        android:textAlignment="center"
-        android:textColor="@color/primary_text"
-        app:chipBackgroundColor="@color/bonus_icon"
-        app:chipStrokeColor="@color/bonus_icon"
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/chip3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip3"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:text="@string/limitborc"
+            android:textAlignment="center"
+            android:textColor="@color/primary_text"
+            app:chipBackgroundColor="@color/bonus_icon"
+            app:chipStrokeColor="@color/bonus_icon" />
+
+        <Space
+            android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip4"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:text="@string/sonislem"
+            android:textAlignment="center"
+            android:textColor="@color/primary_text"
+            app:chipBackgroundColor="@color/bonus_icon"
+            app:chipStrokeColor="@color/bonus_icon" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/chip3"
-        app:layout_constraintVertical_bias="0.5">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -138,7 +145,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Kullanılabilir Limit"
+                android:text="@string/kullanilabilirlimit"
                 android:textAlignment="textStart"
                 android:textColor="@color/light_secondary_text"
                 android:textSize="16sp" />
@@ -165,7 +172,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Toplam Limit"
+                android:text="@string/toplamlimit"
                 android:textAlignment="textStart"
                 android:textColor="@color/light_secondary_text"
                 android:textSize="16sp" />
@@ -192,7 +199,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Güncel Dönem Borcu"
+                android:text="@string/gunceldonemborcu"
                 android:textAlignment="textStart"
                 android:textColor="@color/light_secondary_text"
                 android:textSize="16sp" />
@@ -219,7 +226,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Kalan Hesap Özeti Borcu"
+                android:text="@string/kalanhesapborcu"
                 android:textAlignment="textStart"
                 android:textColor="@color/light_secondary_text"
                 android:textSize="16sp" />
@@ -244,13 +251,12 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:backgroundTint="@color/bonus_icon"
-        android:text="TÜM KART HAREKETLERİ"
+        android:text="@string/tumkarthareketleri"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <Button
         android:id="@+id/button2"
@@ -258,11 +264,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/bonus_icon"
-        android:text="KART İŞLEMLERİ"
+        android:text="@string/kartislemleri"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

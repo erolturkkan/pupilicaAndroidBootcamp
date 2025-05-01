@@ -1,6 +1,14 @@
 <resources>
-    <string name="app_name">WalletApp</string>
+    <string name="app_name">Wallet</string>
     <string name="gunaydin">Good Morning</string>
     <string name="hosgeldin">Welcome Erol</string>
+    <string name="limitborc">Limit / Debt</string>
+    <string name="sonislem">Last Transactions</string>
+    <string name="kullanilabilirlimit">Available Limit</string>
+    <string name="toplamlimit">Total Limit</string>
+    <string name="gunceldonemborcu">Current Period Debt</string>
+    <string name="kalanhesapborcu">Remaining Account Debt</string>
+    <string name="tumkarthareketleri">ALL CARD TRANSACTIONS</string>
+    <string name="kartislemleri">CARD OPERATIONS</string>
 
 </resources>

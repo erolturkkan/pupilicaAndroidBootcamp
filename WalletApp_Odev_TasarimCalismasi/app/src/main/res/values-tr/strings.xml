@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cüzdan</string>
+    <string name="gunaydin">Günaydın</string>
+    <string name="hosgeldin">Hoşgeldin Erol</string>
+    <string name="limitborc">Kredi / Borç</string>
+    <string name="sonislem">Son İşlemler</string>
+    <string name="kullanilabilirlimit">Kullanılabilir Kredi</string>
+    <string name="toplamlimit">Toplam Kredi</string>
+    <string name="gunceldonemborcu">Güncel Döneme Borç</string>
+    <string name="kalanhesapborcu">Kalan Hesap Borcu</string>
+    <string name="tumkarthareketleri">Tüm Kart İşlemleri</string>
+    <string name="kartislemleri">Kart İşlemleri</string>
+    
+
+</resources>
