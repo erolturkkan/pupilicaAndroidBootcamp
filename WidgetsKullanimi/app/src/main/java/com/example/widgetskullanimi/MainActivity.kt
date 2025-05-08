@@ -4,11 +4,13 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.Button
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.widgetskullanimi.databinding.ActivityMainBinding
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -50,6 +52,20 @@ class MainActivity : AppCompatActivity() {
             val secilenUlke = binding.autoCompleteTextView.text.toString()
             Log.e("Sonuc (Göster)", secilenUlke)
 
+        }
+
+        binding.buttonAlert.setOnClickListener {
+            MaterialAlertDialogBuilder(this@MainActivity)
+                .setTitle("Başlık")
+                .setMessage("Mesaj")
+                .setPositiveButton("Tamam") {dialog, which ->
+                    Toast.makeText(this, "Tamam seçildi", Toast.LENGTH_SHORT).show()
+                }
+                .setNegativeButton("İptal") {dialog, which ->
+                    Toast.makeText(this, "İptal seçildi", Toast.LENGTH_SHORT).show()
+
+                }
+                .show()
         }
 
     }
